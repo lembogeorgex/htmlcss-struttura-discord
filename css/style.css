@@ -26,8 +26,20 @@ body{
     margin-bottom: var(--s);
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
 /* Block sizes */
 
+
+.xxs{
+    width: 50px;
+    height: 25px;
+    background-color: lime;
+
+}
 .small{
    width: 25%;
    min-height:100px;
@@ -64,10 +76,7 @@ body{
     border: 1px dashed yellow;
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
-}
+
 /* Header */
 
 nav{
@@ -106,4 +115,12 @@ nav{
 .big{
     background-color: indianred;
     
+}
+
+#smallfooter{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: turquoise;
 }
