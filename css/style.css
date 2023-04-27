@@ -1,15 +1,30 @@
 /* Generics */
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+body{
     background-color: bisque;
 }
 
 .container{
     width: 1200px;
     margin: 0 auto;
+    padding-top: var(--m);
+    padding-bottom: var(--m);
 
+
+}
+
+header{
+    background-color: brown;
+}
+
+footer{
+    background-color: gray;
 }
 /* Utilities */
 
@@ -21,10 +36,6 @@ body{
     --xl: 50px;
 }
 
-*{
-    margin-top: var(--s);
-    margin-bottom: var(--s);
-}
 
 .flex{
     display: flex;
@@ -47,7 +58,7 @@ body{
    margin: 0;
 }
 .med{
-    width: 25%;
+    width: 40%;
     min-height: 300px;
     background-color: darkolivegreen;
     border: 1px dashed darkblue;
@@ -55,7 +66,7 @@ body{
 
 }
 .large{
-    width: 50%;
+    width: 60%;
     min-height:300px;
     background-color: chocolate;
     border: 1px dashed darkblue;
@@ -63,14 +74,14 @@ body{
 }
 
 .xlarge{
-    width: 65%;
+    width: 100%;
     min-height: 300px;
     background-color: violet;
     border: 1px dashed darkblue;
 }
 
 .xxlarge{
-    width: 70%;
+    width: 100%;
     min-height: 500px;
     background-color:indigo;
     border: 1px dashed yellow;
@@ -80,14 +91,14 @@ body{
 /* Header */
 
 nav{
-    width: 50%;
+    width: 70%;
     min-height: var(--xl);
     background-color: cyan ;
     border: 1px dashed darkblue;
 }
 
 .logo, .login{
-    width: 25%;
+    width: 15%;
     min-height: var(--xl);
     background-color: cyan;
     border: 1px dashed darkblue;
@@ -118,7 +129,7 @@ nav{
 }
 
 #smallfooter{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     justify-content: space-between;
